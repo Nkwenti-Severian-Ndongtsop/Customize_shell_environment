@@ -1,8 +1,9 @@
 # Customizing a shell prompt and environment variables
 
 ## Group members
-- Tegha Romeo
 - Nkwenti Severian
+- Tegha Romeo
+- Ngam Vitalis
 
 This repository contains two script used to customize the bash shell propmt.
 
