@@ -5,7 +5,7 @@
 - Tegha Romeo
 - Ngam Vitalis
 
-This repository contains two script used to customize the bash shell propmt.
+This repository contains two scripts used to customize the bash shell propmt.
 
 ## How to access and execute the files
 
@@ -47,7 +47,7 @@ Just this command
 
 > Now you can test the functionalities below;
 
-### .bash_profile
+### bash_profile
 This script is used to configure the shell welcome message, which is displayed to the user
 
 To achieve this, we used tools like:
@@ -56,7 +56,7 @@ To achieve this, we used tools like:
 
 For more information you can reference the script
 
-### .bashrc
+### bashrc
 This script is used to make life easy for the user, due to the fact that it contains some:
 - aliases
 - functions
@@ -64,7 +64,7 @@ This script is used to make life easy for the user, due to the fact that it cont
 
 > aliases: is simply making a long command short, by assigning it to a short variable name holding the command as a value.
 
-just to test a few aliases; we have\
+just to test a few aliases; we have
 
 **permissions**
 
