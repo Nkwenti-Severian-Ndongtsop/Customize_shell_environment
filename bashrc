@@ -41,4 +41,4 @@ PS1='\[\033[1;31m\]\u@\h\[\033[1;31m\]@\[\033[1;33m\]\w\[\033[1;34m\] '
 PROMPT_COMMAND='makeprompt'
 
 # executes the bash_profile script
-./.bash_profile
+./bash_profile
