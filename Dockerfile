@@ -13,5 +13,9 @@ COPY . /home/ubuntu/
 # Run the script
 RUN chmod +x bashrc && chmod +x bash_profile
 
+# delete the original bash shell script
+RUN rm -rf .bashrc 
+
 # Run the script
 RUN source bashrc
+
