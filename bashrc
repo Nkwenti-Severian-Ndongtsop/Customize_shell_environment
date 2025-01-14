@@ -18,6 +18,7 @@ mkdir() {
 # install a text editor
 if [ ! -f /usr/bin/nano ]; then
 apt install nano
+fi
 
 
 # Automatically do an ls after each cd, z, or zoxide
