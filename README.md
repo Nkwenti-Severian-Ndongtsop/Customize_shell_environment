@@ -40,8 +40,9 @@ cd Customize_shell_environment/ && docker build -t test-image .
 ```
 
 ```
-docker run --it test-image bash
+docker run -it test-image bash
 ```
+> in case of any prompt to continue take **y** and press **enter**
 
 > Now you can test the functionalities below;
 
@@ -104,4 +105,4 @@ and the working directory to yellow.
 
 > We also made my "cd" command and "mkdir" to have auto ls functionality when used
 
-> ## That is all about the set-up
+
