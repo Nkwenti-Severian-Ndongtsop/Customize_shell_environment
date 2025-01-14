@@ -20,6 +20,10 @@ if [ ! -f /usr/bin/nano ]; then
 apt install nano
 fi
 
+# install git
+if [ ! /usr/bin/git ]; then
+apt install git
+fi
 
 # Automatically do an ls after each cd, z, or zoxide
 cd ()
