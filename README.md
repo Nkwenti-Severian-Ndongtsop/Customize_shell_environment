@@ -32,17 +32,15 @@ multipass list
 sudo apt install git && git clone https://github.com/Nkwenti-Severian-Ndongtsop/Customize_shell_environment.git
 ```
 
-- Enter the directory and give executable permissions to the script 
+- Enter the directory and build the docker file and run a container using the image
+
+  
+```
+cd Customize_shell_environment/ && docker build -t test-image .
+```
 
 ```
-cd Customize_shell_environment/ && chmod +x bashrc && chmod +x bash_profile
-```
-
-- Execute the files and observe the few changes\
-Just this command
-
-```
-./bashrc
+docker run --it test-image bash
 ```
 
 > Now you can test the functionalities below;
