@@ -36,7 +36,7 @@ alias gp='git push'
 
 # customize PS1 VARIABLE
 makeprompt() {
-PS1='\[\033[1;31m\]\u@\h\[\033[1;31m\]@\[\033[1;33m\]\w\[\033[1;34m\] '
+PS1='\[\033[1;31m\]\u@\h\[\033[1;31m\]@\[\033[1;33m\]\w\[\033[0m\] '
 }
 PROMPT_COMMAND='makeprompt'
 
