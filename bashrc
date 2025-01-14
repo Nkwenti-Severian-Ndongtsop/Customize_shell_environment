@@ -15,6 +15,11 @@ mkdir() {
         cd "$1"
 }
 
+# install a text editor
+if [ ! -f /usr/bin/nano ]; then
+apt install nano
+
+
 # Automatically do an ls after each cd, z, or zoxide
 cd ()
 {
