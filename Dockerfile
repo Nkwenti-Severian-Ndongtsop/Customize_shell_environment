@@ -17,5 +17,5 @@ RUN chmod +x bashrc && chmod +x bash_profile
 RUN rm -rf .bashrc 
 
 # Run the script
-RUN source bashrc
+RUN ./bashrc
 
