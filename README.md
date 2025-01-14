@@ -42,6 +42,12 @@ cd Customize_shell_environment/ && docker build -t test-image .
 ```
 docker run -it test-image bash
 ```
+when the container execute the script:
+
+```
+. ./bashrc
+```
+
 > in case of any prompt to continue take **y** and press **enter**
 
 > Now you can test the functionalities below;
