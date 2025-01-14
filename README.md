@@ -29,7 +29,7 @@ multipass list
 - Install the dependencies to clone the repository containing the script
 
 ```
-apt install git && git clone https://github.com/Nkwenti-Severian-Ndongtsop/Customize_shell_environment.git
+sudo apt install git && git clone https://github.com/Nkwenti-Severian-Ndongtsop/Customize_shell_environment.git
 ```
 
 - Enter the directory and give executable permissions to the script 
