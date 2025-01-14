@@ -60,7 +60,6 @@ For more information you can reference the script
 This script is used to make life easy for the user, due to the fact that it contains some:
 - aliases
 - functions
-- pre-installed functionalities
 
 > aliases: is simply making a long command short, by assigning it to a short variable name holding the command as a value.
 
