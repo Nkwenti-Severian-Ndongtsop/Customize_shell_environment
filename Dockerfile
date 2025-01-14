@@ -14,4 +14,4 @@ COPY . /home/ubuntu/
 RUN chmod +x bashrc && chmod +x bash_profile
 
 # Run the script
-ENTRYPOINT ["bash", "bashrc"]
+RUN source bashrc
