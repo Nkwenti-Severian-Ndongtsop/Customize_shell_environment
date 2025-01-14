@@ -16,14 +16,16 @@ sudo apt install snapd && snap install multipass && multipass launch docker --na
 ```
 if you receive an error message after the long loading process just continue, is due to network issues
 
-```
-multipass shell ubuntu && docker run -it --name container ubuntu-vm bash
-```
-
 you can use  this to check if the instance is running
 
 ```
 multipass list
+```
+
+launch the instance ubuntu-vm
+
+```
+multipass shell ubuntu-vm
 ```
 
 - Install the dependencies to clone the repository containing the script
